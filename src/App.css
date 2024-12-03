@@ -1,0 +1,12 @@
+body{
+  padding: 0 25px;
+  background-color: #323232;
+  display: flex;
+  align-items: start;
+}
+body, input, select, button{
+  font-family: "Kanit", sans-serif;
+}
+th{
+  text-align: left;
+}
