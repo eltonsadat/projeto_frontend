@@ -34,15 +34,18 @@ const ProductDetails: React.FC = () => {
       {
         loading ? <p>Carregando Detalhes do Produto...</p> :
           <table>
-            
-              <tr><h1>{product.title}</h1></tr>
-              <tr><p>{product.description}</p></tr>
-              <tr><p>Categoria: {product.category}</p></tr>
-              <tr><p>Preço: ${product.price}</p></tr>
-              <tr><p>Estoque: {product.stock}</p></tr>
-              <tr><TiArrowBack title='Voltar' color='#FFF' size={40} onClick={() => navigate('/')} /></tr>
-              <tr><MdEditNote title='Editar' color='#7DDA58' size={40} onClick={() => navigate(`/product/${id}/edit`)} /></tr>
-            
+
+            <tr><h1>{product.title}</h1></tr>
+            <tr><p>{product.description}</p></tr>
+            <tr><p>Categoria: {product.category}</p></tr>
+            <tr><p>Preço: ${product.price}</p></tr>
+            <tr><p>Estoque: {product.stock}</p></tr>
+            <tr>
+              <TiArrowBack title='Voltar' color='#FFF' size={40} onClick={() => navigate('/')} />
+              <MdEditNote title='Editar' color='#7DDA58' size={40} onClick={() => navigate(`/product/${id}/edit`)} />
+
+            </tr>
+
           </table>
       }
     </div>
