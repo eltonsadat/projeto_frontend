@@ -6,7 +6,7 @@ Professor: Wesley Silva
 ## Links
 API usada: https://dummyjson.com/docs
 Ropositório: https://github.com/eltonsadat/projeto_frontend
-Site: 
+Site: https://projeto-frontend-dusky.vercel.app/
 
 ## Atividade 4 - Projeto ReactJS
 Usando a rota de produtos da API foram criadas duas páginas. Uma para a visualização dos produtos cadastrados e outra página para visualizar os detalhes dos produtos individualmente.
