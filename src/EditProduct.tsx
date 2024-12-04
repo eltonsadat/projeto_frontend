@@ -77,7 +77,7 @@ const EditProduct: React.FC = () => {
                                 type="text"
                                 value={title}
                                 onChange={(e) => setTitle(e.target.value)}
-                                placeholder="Product Title"
+                                placeholder="Nome do produto"
                                 required
                             />
                         </td>
@@ -86,7 +86,7 @@ const EditProduct: React.FC = () => {
                                 type="text"
                                 value={description}
                                 onChange={(e) => setDescription(e.target.value)}
-                                placeholder="Product Description"
+                                placeholder="Descrição do produto"
                                 required
                             />
                         </td>
@@ -95,7 +95,7 @@ const EditProduct: React.FC = () => {
                                 type="text"
                                 value={category}
                                 onChange={(e) => setCategory(e.target.value)}
-                                placeholder="Product Category"
+                                placeholder="Categoria do produto"
                                 required
                             />
                         </td>
@@ -104,7 +104,7 @@ const EditProduct: React.FC = () => {
                                 type="number"
                                 value={price}
                                 onChange={(e) => setPrice(e.target.value)}
-                                placeholder="Product Price"
+                                placeholder="Preço do produto"
                                 required
                             />
                         </td>
@@ -113,7 +113,7 @@ const EditProduct: React.FC = () => {
                                 type="number"
                                 value={stock}
                                 onChange={(e) => setStock(e.target.value)}
-                                placeholder="Product Stock"
+                                placeholder="Estoque do produto"
                                 required
                             />
                         </td>
